@@ -1,8 +1,6 @@
 # Weather-Map-Rest-Client
 Building an HTML page that accesses the Open Weather Map REST API and displays the current weather and the five-day forecast for a given zip code.
 
-### Live Demo: 
-
 ### Languages and Tools Used:
 <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /> <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
