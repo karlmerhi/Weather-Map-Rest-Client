@@ -20,4 +20,4 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen(HTTP_PORT, onHttpStart);
+app.listen(process.env.PORT || HTTP_PORT, onHttpStart);
