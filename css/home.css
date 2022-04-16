@@ -1,0 +1,128 @@
+html, body {
+    min-height: 100%;
+    background: aliceblue;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+} 
+
+.form {
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center; 
+}
+
+.col-lg-6 {
+    margin: auto;
+}
+
+.container-fluid {
+    /* text-align: center; */
+}
+
+.units {
+
+}
+
+#errorZip {
+    width: 75%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    bottom: -38%;
+    left:0;
+}
+
+#forecast-title {
+    text-align: center;
+}
+
+.card {
+    border: 0;
+}
+
+.card-img, .card-img-bottom {
+    border-bottom-right-radius: calc(2.5rem - 1px);
+    border-bottom-left-radius: calc(2.5rem - 1px);
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(2.5rem - 1px);
+    border-top-right-radius: calc(2.5rem - 1px);
+}
+
+/* @media (min-width: 768px) */
+.col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 60.333333%;
+}
+#conditions-humididty {
+    font-size: 2.5rem;
+}
+#conditions-wind {
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px){
+    #conditions-title {
+        font-size: 1.5rem;
+    }
+    .display-2 {
+        font-size: 3rem;
+    }
+    #conditions-humididty {
+        font-size: 1.5rem;
+    }
+    #conditions-wind {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .p-5 { 
+        padding: 1.3rem!important;
+    }
+    #conditions-title {
+        font-size: 1.3rem;
+    }
+    .display-2 {
+        font-size: 2.5rem;
+    }
+    #conditions-humididty {
+        font-size: 1.3rem;
+    }
+    #conditions-wind {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .p-5 { 
+        padding: 1.5rem!important;
+    }
+    #conditions-title {
+        font-size: 1rem;
+    }
+    .display-2 {
+        font-size: 2rem;
+    }
+    #conditions-humididty {
+        font-size: 1rem;
+    }
+    #conditions-wind {
+        font-size: 1rem;
+    }
+    .mb-0, .my-0 {
+        font-size: 1rem;
+    }
+}
